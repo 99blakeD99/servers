@@ -5,7 +5,7 @@
 **The open-source universal compliance intelligence platform built exclusively for financial services.** We rapidly ingest ANY well-articulated Standard to make compliance intelligence accessible to any AI agent through innovative MCP integration - slicing through red tape to enable compliance professionals to carry out senior executive tasks rather than get bogged down in small-print. **Our MCP tools turbocharge AI effectiveness by transforming general AI agents into compliance experts**, ultimately serving the goal of **making it easier to bring the right financial products safely to consumers**.
 
 ## 📊 Market Opportunity
-**RegTech projected to grow from $11.7B to $83.8B by 2033 (21.6% CAGR)** *- Allied Market Research, 2025* - Our MCP Project is positioned as the first MCP-integrated universal compliance platform for financial services.
+**RegTech projected to grow from $11.7B to $83.8B by 2033 (21.6% CAGR)** *- Allied Market Research, 2025* - The Universal_FSCompliance_MCP Project is positioned as the first MCP-integrated universal compliance platform for financial services.
 
 ## 🚧 Development Status
 
@@ -47,7 +47,7 @@ This repository demonstrates our technical capability, strategic thinking, and d
 
 ## Universal Standards Engine
 
-In principle our MCP Project is designed to rapidly ingest many well-articulated Standards. We are using the word "Standard" widely, to include:
+In principle the Universal_FSCompliance_MCP Project is designed to rapidly ingest many well-articulated Standards. We are using the word "Standard" widely, to include:
 - **Regulatory frameworks** (FCA Handbook, SEC rules, MiFID II, Basel III)
 - **Industry codes** (conduct codes, best practice guidelines)  
 - **Statutory requirements** (legislation, acts, laws)
@@ -81,7 +81,7 @@ Using the architectures developed for our first ingested Standard, the FCA Handb
 - **Regulatory Inspectors**: Automated compliance checking and reporting
 - **Professional Advisers**: Regulatory guidance and requirement clarification
 
-> **Important Note**: Our MCP Project is a technology platform that provides AI-powered compliance analysis tools. It does not provide legal or regulatory advice. Our expertise lies specifically in the intersection of AI technology and compliance processes, making regulatory intelligence accessible to AI systems. Users remain responsible for compliance decisions and should consult qualified legal and regulatory professionals for definitive guidance.
+> **Important Note**: The Universal_FSCompliance_MCP Project is a technology platform that provides AI-powered compliance analysis tools. It does not provide legal or regulatory advice. Our expertise lies specifically in the intersection of AI technology and compliance processes, making regulatory intelligence accessible to AI systems. Users remain responsible for compliance decisions and should consult qualified legal and regulatory professionals for definitive guidance.
 
 ---
 
@@ -95,7 +95,7 @@ Using the architectures developed for our first ingested Standard, the FCA Handb
 
 ## Notes
 
-**License**: Our MCP Product is opensource, licensed under the MIT License. The MIT License is a permissive license that allows free use, copy, modification, and distribution of software without restriction.
+**License**: The Universal_FSCompliance_MCP Product is opensource, licensed under the MIT License. The MIT License is a permissive license that allows free use, copy, modification, and distribution of software without restriction.
 
 **About This Project**  
 **Author**: Blake Dempster, Founder, CEO, Principal Architect  

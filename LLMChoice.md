@@ -1,12 +1,24 @@
-# LLM Selection Strategy for FSCompliance
+# LLM Selection Strategy for Universal_FSCompliance_MCP
 
 ## Executive Summary
 
-At the start of the FSCompliance project, we set out to remain LLM-open, allowing users complete freedom to choose their preferred language model. As the project progressed and we gained extensive experience with various models through comprehensive development work, we evolved our stance to **LLM-open-with-strong-recommendation** - maintaining user choice while providing a proven default based on real-world validation.
+At the start of the Universal_FSCompliance_MCP Project, we set out to remain LLM-open, allowing users complete freedom to choose their preferred language model. As the project progressed and we gained extensive experience with various models through comprehensive development work, we evolved our stance to **LLM-open-with-strong-recommendation** - maintaining user choice while providing a proven default based on real-world validation.
 
-After comprehensive analysis, we have selected **Claude 3.5 Sonnet as the default LLM** for FSCompliance MCP tools, with multi-model support preserving enterprise flexibility. **Claude 3.5 Sonnet has undergone extensive real-world validation through the comprehensive development of FSCompliance itself** - representing hundreds of hours of testing on complex regulatory analysis, consultation document analysis, multi-document synthesis, strategic planning, and technical architecture tasks that are directly analogous to production requirements. **Our MCP tools turbocharge AI effectiveness by transforming general AI agents into compliance experts**, ultimately serving the goal of **making it easier to bring the right financial products safely to consumers**.
+We have provisionally selected **Claude 3.5 Sonnet as the default LLM** for the Universal_FSCompliance_MCP product, with multi-model support preserving enterprise flexibility. This selection is on the basis that:
+ 
+ - Claude 3.5 Sonnet has undergone extensive real-world validation during the Universal_FSCompliance_MCP Project itself.
+ 
+ - This has included testing on complex regulatory requirements, consultation document analysis, multi-document synthesis, strategic planning, and technical architecture tasks.
+ 
+ - These tasks are directly analogous to what the Universal_FSCompliance_MCP Product will be asked to do. 
+ 
+ - Claude 3.5 Sonnet has the power, which many other LLMs might not have, to allow the Universal_FSCompliance_MCP Product to make available tools which turbocharge AI effectiveness for this particular application.
 
-**Critical Architecture Note**: The FSCompliance MCP server runs its own LLM completely independently from whatever LLM the enterprise chooses for their AI agents. This architectural separation means organizations can use any LLM for their main AI systems while still benefiting from FSCompliance's proven Claude 3.5 Sonnet compliance intelligence via MCP protocol.
+ - This power transforms general AI agents into compliance experts, ultimately serving the goals of cutting red tape and making it easier to bring the right financial products safely to consumers.
+
+While we focused primarily on Claude 3.5 Sonnet based on early positive results, this approach prioritized rapid development over systematic LLM comparison. This validation was conducted within our specific regulatory focus and may require expansion for broader compliance applications. We acknowledge that production usage at enterprise scale may reveal additional requirements, and our architecture supports LLM switching to accommodate future validation findings.
+
+**Critical Architecture Note**: The Universal_FSCompliance_MCP server runs its own LLM completely independently from whatever LLM the enterprise chooses for their AI agents. This architectural separation means organizations can use any LLM for their main AI systems while still benefiting from the Universal_FSCompliance_MCP Product's proven Claude 3.5 Sonnet compliance intelligence via MCP protocol.
 
 This document outlines our decision framework, comparative analysis, and the strategic rationale behind prioritizing proven compliance accuracy while maintaining user choice in financial services applications.
 
@@ -404,7 +416,7 @@ This architectural decision aligns with FSCompliance's positioning as the transp
 **Created**: 25 December 2024  
 **Last Updated**: 9 July 2025  
 **Date last reviewed formally by ReviewRules.md**: 9 July 2025
-**Purpose**: Strategic analysis and documentation of LLM selection criteria and decision rationale for our MCP Project platform development and enterprise customer communications.
+**Purpose**: Strategic analysis and documentation of LLM selection criteria and decision rationale for the Universal_FSCompliance_MCP Project platform development and enterprise customer communications.
 
 *Next review: Post-Phase 3 implementation and initial customer feedback (Q3 2025)*
 

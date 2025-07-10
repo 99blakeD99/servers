@@ -190,7 +190,7 @@ The comprehensive formal review of all main directory documentation revealed tha
 - **Professional damage**: AI evaluation tools would flag terminology conflicts across "four most important documents"
 
 **Naming Convention Chaos - The Identity Crisis:**
-- **FSCompliance vs our MCP Project/Product confusion**: Systematic misuse of "FSCompliance" in contexts requiring "our MCP Project" (development) or "our MCP Product" (deployment)
+- **FSCompliance vs the Universal_FSCompliance_MCP Project/Product confusion**: Systematic misuse of "FSCompliance" in contexts requiring "the Universal_FSCompliance_MCP Project" (development) or "the Universal_FSCompliance_MCP Product" (deployment)
 - **Scale of problem**: Found across Planning.md, Rules.md, Tasks.md, CLAUDE.md, FAQ.md, README.md, UpdateCheck.md, Touchstones.md, OutlineOfManagementImpacts.md
 - **Impact if uncaught**: Confusing communications to different audiences, unclear distinction between project and product contexts
 - **Professional damage**: Corporate evaluators would perceive lack of strategic clarity about own offerings

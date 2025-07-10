@@ -1,6 +1,6 @@
-# FSCompliance User Interface Design
+# Universal_FSCompliance_MCP User Interface Design
 
-*UI/UX design strategy for FSCompliance - the AI-native compliance intelligence platform that makes regulatory intelligence accessible to any AI agent and increases the effectiveness of Compliance professionals in Financial Services, ultimately serving the goal of making it easier to bring the right financial products safely to consumers*
+*UI/UX design strategy for Universal_FSCompliance_MCP - the AI-native compliance intelligence platform that makes regulatory intelligence accessible to any AI agent and increases the effectiveness of Compliance professionals in Financial Services, ultimately serving the goal of making it easier to bring the right financial products safely to consumers*
 
 ---
 
@@ -11,7 +11,7 @@
 **Professional Financial Services Aesthetic**
 - Clean, modern interface that inspires confidence in critical compliance decisions
 - Visual hierarchy that emphasizes important compliance information and risk indicators
-- Consistent with FSCompliance brand colors and professional positioning
+- Consistent with Universal_FSCompliance_MCP brand colors and professional positioning
 
 **AI-Native Design**
 - Interface designed for AI agent interaction as well as human users
@@ -537,7 +537,7 @@ FSCompliance Dashboard
 **Created**: 25 December 2024  
 **Last Updated**: 9 July 2025  
 **Date last reviewed formally by ReviewRules.md**: 9 July 2025  
-**Purpose**: Comprehensive UI/UX design document and mockup collection for our MCP Product demo version, including user personas, workflows, and interface specifications.
+**Purpose**: Comprehensive UI/UX design document and mockup collection for the Universal_FSCompliance_MCP Product demo version, including user personas, workflows, and interface specifications.
 
 *This document provides detailed UI/UX specifications for the first MCP-integrated compliance platform, designed to serve both AI agents and compliance professionals in making it easier to bring the right financial products safely to consumers.*
 

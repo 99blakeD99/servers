@@ -1,8 +1,8 @@
-# Our MCP Project Planning Document
+# The Universal_FSCompliance_MCP Project Planning Document
 
 ## Project Overview
 
-**Our MCP Project** is an open-source MCP (Model Context Protocol) service designed for financial services companies and institutions to manage compliance with identified "Conduct Requirements". Our MCP Project serves as a universal Standards engine, initially implementing the FCA Handbook as our first ingested Standard. The system is designed to rapidly ingest any well-articulated Standard, using the word "Standard" widely to include regulatory frameworks (FCA Handbook, SEC rules, MiFID II, Basel III), industry codes (conduct codes, best practice guidelines), statutory requirements (legislation, acts, laws), international standards (IFRS, SOX, ISO standards), jurisdictional regulations (state, provincial, national requirements), and consultation documents (regulatory proposals, policy consultations, draft guidance).
+**The Universal_FSCompliance_MCP Project** is an open-source MCP (Model Context Protocol) service designed for financial services companies and institutions to manage compliance with identified "Conduct Requirements". The Universal_FSCompliance_MCP Project serves as a universal Standards engine, initially implementing the FCA Handbook as our first ingested Standard. The system is designed to rapidly ingest any well-articulated Standard, using the word "Standard" widely to include regulatory frameworks (FCA Handbook, SEC rules, MiFID II, Basel III), industry codes (conduct codes, best practice guidelines), statutory requirements (legislation, acts, laws), international standards (IFRS, SOX, ISO standards), jurisdictional regulations (state, provincial, national requirements), and consultation documents (regulatory proposals, policy consultations, draft guidance).
 
 ### Strategic Context
 
@@ -10,11 +10,11 @@ Compliance with legal, regulatory, and industry requirements has become particul
 
 The consequences of non-compliance can be severe - both in public reputation and legal liability. Prior to AI, this regulatory burden was becoming unmanageable, creating mounting friction, costs, and reduced agility for Financial Institutions.
 
-**Our MCP Project's mission is to slice through red tape** by leveraging AI power through open-source innovation and MCPs (Model Context Protocol) accessible by any AI agent or LLM, making compliance manageable and efficient, ultimately serving the goal of **making it easier to bring the right financial products safely to consumers**.
+**The Universal_FSCompliance_MCP Project's mission is to slice through red tape** by leveraging AI power through open-source innovation and MCPs (Model Context Protocol) accessible by any AI agent or LLM, making compliance manageable and efficient, ultimately serving the goal of **making it easier to bring the right financial products safely to consumers**.
 
 ### Technical Vision
 
-This comprehensive planning document reflects deep understanding of how regulatory principles align with AI capabilities, combined with enterprise-grade technical architecture designed to meet the complex needs of financial services compliance. Our MCP Project transforms compliance from a burden into intelligence that scales with AI adoption, with **MCP tools that turbocharge AI effectiveness by providing specialized compliance intelligence that transforms general AI agents into compliance experts**.
+This comprehensive planning document reflects deep understanding of how regulatory principles align with AI capabilities, combined with enterprise-grade technical architecture designed to meet the complex needs of financial services compliance. The Universal_FSCompliance_MCP Project transforms compliance from a burden into intelligence that scales with AI adoption, with **MCP tools that turbocharge AI effectiveness by providing specialized compliance intelligence that transforms general AI agents into compliance experts**.
 
 ## Project Goals
 
@@ -301,8 +301,8 @@ Based on comprehensive analysis in DatabaseStrategy.md:
 **Created**: 25 December 2024  
 **Last Updated**: 9 July 2025  
 **Date last reviewed formally by ReviewRules.md**: 9 July 2025
-**Purpose**: Comprehensive architectural planning and strategic direction for our MCP Project platform development.
+**Purpose**: Comprehensive architectural planning and strategic direction for the Universal_FSCompliance_MCP Project platform development.
 
-*This planning document serves as the foundation for our MCP Project development. It will be updated as the project evolves and requirements are refined.*
+*This planning document serves as the foundation for the Universal_FSCompliance_MCP Project development. It will be updated as the project evolves and requirements are refined.*
 
 ---

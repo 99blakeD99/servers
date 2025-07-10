@@ -1,6 +1,6 @@
-# FSCompliance Project Touchstones
+# Universal_FSCompliance_MCP Project Touchstones
 
-This document serves as a learning repository of important project and product underpinnings that provide coherence and consistency across all FSCompliance documentation and initiatives.
+This document serves as a learning repository of important project and product underpinnings that provide coherence and consistency across all Universal_FSCompliance_MCP documentation and initiatives.
 
 ## Purpose
 
@@ -33,7 +33,7 @@ When adding new touchstones, ensure they:
 - Using the MCP will enable compliance professionals to carry out senior executive tasks rather than get entangled in small-print
 - Human effectiveness is transformationally enhanced
 - Humans still have final responsibility, the MCP's role is to make that responsibility manageable
-- FSCompliance transforms consultation document burden from reactive scrambling to proactive strategic planning
+- The Universal_FSCompliance_MCP Product transforms consultation document burden from reactive scrambling to proactive strategic planning
 - A major overall objective is to make it easier to bring the right financial products safely to consumers
 
 ### Technical Architecture
@@ -74,6 +74,6 @@ When adding new touchstones, ensure they:
 **Co-Authored by**: Claude Code (claude.ai/code)  
 **Created**: 3 July 2025  
 **Date last reviewed formally by ReviewRules.md**: 9 July 2025
-**Purpose**: Central repository of fundamental project and product principles for consistency across our MCP Project documentation and strategic initiatives.
+**Purpose**: Central repository of fundamental project and product principles for consistency across the Universal_FSCompliance_MCP Project documentation and strategic initiatives.
 
 ---

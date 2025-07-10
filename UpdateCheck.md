@@ -1,12 +1,12 @@
 # Standards and Reference Document Update Management
 
-*Systematic approach to maintaining currency of all Standards and key reference documents adopted by our MCP Project*
+*Systematic approach to maintaining currency of all Standards and key reference documents adopted by the Universal_FSCompliance_MCP Project*
 
 ---
 
 ## Objective
 
-Our MCP Project provides compliance professionals with current regulatory intelligence through systematic monitoring and updating of all implemented Standards and key reference documents.
+The Universal_FSCompliance_MCP Project provides compliance professionals with current regulatory intelligence through systematic monitoring and updating of all implemented Standards and key reference documents.
 
 ---
 
@@ -115,6 +115,6 @@ Our MCP Project provides compliance professionals with current regulatory intell
 **Created**: 25 December 2024  
 **Last Updated**: 9 July 2025  
 **Date last reviewed formally by ReviewRules.md**: 9 July 2025
-**Purpose**: Framework for maintaining currency of Standards and reference documents adopted by our MCP Project.
+**Purpose**: Framework for maintaining currency of Standards and reference documents adopted by the Universal_FSCompliance_MCP Project.
 
 ---

@@ -370,6 +370,6 @@
 **Author**: Blake Dempster, Founder, CEO, Principal Architect  
 **Created**: 9 July 2025  
 **Date last reviewed formally by ReviewRules.md**: 9 July 2025
-**Purpose**: Management briefing on AI issues for financial institutions, converted from HTML format for AI-friendly access and integration into our MCP Project documentation.
+**Purpose**: Management briefing on AI issues for financial institutions, converted from HTML format for AI-friendly access and integration into the Universal_FSCompliance_MCP Project documentation.
 
 ---

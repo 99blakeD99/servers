@@ -1,6 +1,6 @@
 # GitHub Commit Assistant
 
-This document provides guidance to Claude Code for managing the MCP Project git commits that align with our OurStory.md narrative structure.
+This document provides guidance to Claude Code for managing the Universal_FSCompliance_MCP Project git commits that align with our OurStory.md narrative structure.
 
 ## Commit Type Assessment
 

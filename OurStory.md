@@ -24,7 +24,7 @@ The project was ambitious. We did not know what would happen next. What did happ
 
 #### CEO Voice
 
-Listen everyone these very early stages set the DNA of our MCP project and our MCP product, we need to keep our heads clear. We need to ensure that everything that should be there is in fact there, and that we make the right foundational choices at the beginning. It will require hard thinking: not only is it a new project, not only is it a new product, it's a new AI universe. Good luck!
+Listen everyone these very early stages set the DNA of our work, we need to keep our heads clear. We need to ensure that everything that should be there is in fact there, and that we make the right foundational choices at the beginning. It will require hard thinking: not only is it a new project, not only is it a new product, it's a new AI universe. Good luck!
 
 #### The Technical Architect Voice
 
@@ -56,7 +56,7 @@ Oh look, a steady stream of problems solved and updates.
 
 Ok, I think I'll go and make a coffee..., oh wait, CC's finished.
 
-Darn that was quick, let's take a look. Darn, that looks good. Okay, CC, what's next, make some tasks, get back to me.
+Crikey, that was quick, let's take a look. Darn, that looks good. Okay, CC, what's next, make some tasks, get back to me.
 
 Okay, CC, let me have a look, take a breather... (it's easy to forget that that CC doesn't need breathers).
 
@@ -82,7 +82,7 @@ Foundational framework created: Rules.md, CLAUDE.md Planning.md (these would con
 
 #### The Technical Architect Voice
 
-The understanding dawned that our current MCP project work involves cognitive processing very analogous to the work we want our MCP product to do.
+The understanding dawned that our current project work involves cognitive processing very analogous to the work we want our product to do.
 
 This is a potent validation of CC's LLM, Claude 3.5 Sonnet, positioning it front runner as choice of LLM. Also, its privacy protections are very strong.
 
@@ -102,7 +102,7 @@ Okay for now, decided: LLM Open, strong recommendation for Claude 3.5 Sonnet, ma
 
 A lot of to-and-fro chat between BD and CC.
 
-It's becoming clear that the Project vs. Product distinction is important, get the two entangled and both human and coding assistant do a hefty amount of unnecessary work. Discussed this with CC. Agreed, we'd give the Product the clear codename: the MCP.
+It's becoming clear that the project vs. product distinction is important, get the two entangled and both human and coding assistant do a hefty amount of unnecessary work. Discussed this with CC. Agreed, be careful about the terminology.
 
 Actually it's also becoming clear that it's best to produce draft prompts offline. Often the first versions don't make much sense, that's because they represent nascent thinking and the general mess that comes with creativity. Give them some maturation time. Then edit them until they're reasonably articulate. Then divide them up into things that CC can do one at a time.
 
@@ -114,7 +114,7 @@ So, ploughing on, ending with, Okay CC tell me what we've achieved so far.
 
 #### The Technical Architect Voice
 
-Fine-tuning of LLMs is a very topical issue. I think the value of doing so is overstated. It might have been necessary in pre-agentic days, but now AI agents handle specialist knowledge well for text-based application. Besides we have been doing a lot of work in our MCP project which is very analogous with the work that our MCP product will do, and Claude 3.5 Sonnet has performed startlingly well.
+Fine-tuning of LLMs is a very topical issue. I think the value of doing so is overstated. It might have been necessary in pre-agentic days, but now AI agents handle specialist knowledge well for text-based application. Besides we have been doing a lot of work in our project which is very analogous with the work that our MCP product will do, and Claude 3.5 Sonnet has performed startlingly well.
 
 Why struggle with expensive retraining cycles when LightRAG provides superior advantages? Regulations change constantly, RAG data updates immediately while fine-tuned models become stale. Plus RAG sources are transparent and auditable, crucial for compliance contexts. The same model can access multiple Standards without retraining.
 
@@ -146,7 +146,7 @@ Preservation of proven Compliance intelligence through architectural separation
 
 #### The Technical Architect Voice
 
-Having so many .mds raised a problem. What if one .md was inadvertently different from another. Well, we could design a review process in which CC specifically checked for inconsistencies between .mds. And also, that relevant information from the new .md was inserted in to CLAUDE.md. And also… actually there were quite a lot of review requirements. Oh well, no problem, just create another .md called ReviewRules.md, adding new requirements as they became clear (like: don’t be verbose; adopt a professional tone; ensure wording is clear as to whether the MCP product or the MCP project is being referred to, and so on), include the requirement to check consistency between all the project .mds, and we’re all good to go.
+Having so many .mds raised a problem. What if one .md was inadvertently different from another. Well, we could design a review process in which CC specifically checked for inconsistencies between .mds. And also, that relevant information from the new .md was inserted in to CLAUDE.md. And also… actually there were quite a lot of review requirements. Oh well, no problem, just create another .md called ReviewRules.md, adding new requirements as they became clear (like: don’t be verbose; adopt a professional tone; ensure wording is clear as to whether the product or the project is being referred to, and so on), include the requirement to check consistency between all the project .mds, and we’re all good to go.
 
 #### The Compliance Officer Voice
 
@@ -204,7 +204,7 @@ Some to-ing and fro-ing. All done.
 
 #### The Compliance Officer Voice
 
-A quick heads-up everyone. We have to be careful that our designs don't get frozen in to any particular Standard at the moment we happen to have ingested it. Our MCP Product users will expect up-to-dateness.  And although we say it's up to them to make final decisions, it is useless to them if such final decisions involve the headbanging process of working out if our MCP Product is out of date or not - and if it is, then what?. We need a systematic UpdateCheck process to ensure that if we cover a Standard we not only ingest it, we regularly check if we should be updating it.
+A quick heads-up everyone. We have to be careful that our designs don't get frozen in to any particular Standard at the moment we happen to have ingested it. The product users will expect up-to-dateness.  And although we say it's up to them to make final decisions, it is useless to them if such final decisions involve the headbanging process of working out if the product is out of date or not - and if it is, then what?. We need a systematic UpdateCheck process to ensure that if we cover a Standard we not only ingest it, we regularly check if we should be updating it.
 
 #### The Market Voice
 

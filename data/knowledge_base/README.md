@@ -1,6 +1,6 @@
 # Knowledge Base Directory
 
-This directory contains the knowledge base data for FSCompliance MCP.
+This directory contains the knowledge base data for the Universal_FSCompliance_MCP.
 
 ## Structure
 

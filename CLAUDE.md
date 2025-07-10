@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**Our MCP Project** is the open-source compliance intelligence platform built exclusively for financial services. We make regulatory intelligence accessible to any AI agent through innovative MCP integration while increasing the effectiveness of compliance professionals. Built as a universal Standards engine with the FCA Handbook as our first ingested Standard, our MCP Project rapidly ingests any well-articulated Standard, broadly defined to include regulatory frameworks, industry codes, statutory requirements, international standards, jurisdictional regulations, and consultation documents. Our MCP Project is positioned as the first MCP-integrated compliance platform, **with MCP tools that turbocharge AI effectiveness by transforming general AI agents into compliance experts**, ultimately serving the goal of **making it easier to bring the right financial products safely to consumers**.
+**The Universal_FSCompliance_MCP Project** is the open-source compliance intelligence platform built exclusively for financial services. We make regulatory intelligence accessible to any AI agent through innovative MCP integration while increasing the effectiveness of compliance professionals. Built as a universal Standards engine with the FCA Handbook as our first ingested Standard, the Universal_FSCompliance_MCP Project rapidly ingests any well-articulated Standard, broadly defined to include regulatory frameworks, industry codes, statutory requirements, international standards, jurisdictional regulations, and consultation documents. The Universal_FSCompliance_MCP Project is positioned as the first MCP-integrated compliance platform, **with MCP tools that turbocharge AI effectiveness by transforming general AI agents into compliance experts**, ultimately serving the goal of **making it easier to bring the right financial products safely to consumers**.
 
 ## Key Project Files
 
@@ -64,7 +64,7 @@ poetry run python -m fscompliance.test_client
 
 ## Architecture
 
-Our MCP Project follows a layered architecture as the first MCP-integrated compliance platform:
+The Universal_FSCompliance_MCP Project follows a layered architecture as the first MCP-integrated compliance platform:
 
 1. **MCP Server Layer**: Protocol-compliant JSON-RPC 2.0 server
 2. **Knowledge Management Layer**: LightRAG-powered FCA Handbook processing
@@ -73,7 +73,7 @@ Our MCP Project follows a layered architecture as the first MCP-integrated compl
 5. **LLM Abstraction Layer**: Multi-model support with Claude 3.5 Sonnet default (LLaMA 3, Falcon, Mistral Medium alternatives). **Architectural Independence**: Our MCP server operates independently from enterprise AI agent LLM choices
 
 ### Strategic Architecture Decisions
-- **LLM Strategy**: Claude 3.5 Sonnet selected as default based on extensive real-world validation through our MCP Project development; no fine-tuning architectural decision per `LLMChoice.md`
+- **LLM Strategy**: Claude 3.5 Sonnet selected as default based on extensive real-world validation through the Universal_FSCompliance_MCP Project development; no fine-tuning architectural decision per `LLMChoice.md`
 - **LLM Independence**: Our MCP server runs its own LLM completely separately from enterprise AI agent LLM choices, eliminating adoption barriers from corporate LLM standardization decisions
 - **Database Evolution**: Migrating to Supabase (PostgreSQL + PGVector) per `DatabaseStrategy.md` for simplified architecture and real-time capabilities
 - **MCP Tool Priority**: 6 priority tools identified in `ComplianceTools.md` for Phase 3 implementation
@@ -90,7 +90,7 @@ Our MCP Project follows a layered architecture as the first MCP-integrated compl
 
 ## Universal Standards Definition
 
-Our MCP Project uses "Standard" widely to include:
+The Universal_FSCompliance_MCP Project uses "Standard" widely to include:
 - **Regulatory frameworks** (FCA Handbook, SEC rules, MiFID II, Basel III)
 - **Industry codes** (conduct codes, best practice guidelines)  
 - **Statutory requirements** (legislation, acts, laws)
@@ -98,7 +98,7 @@ Our MCP Project uses "Standard" widely to include:
 - **Jurisdictional regulations** (state, provincial, national requirements)
 - **Consultation documents** (regulatory proposals, policy consultations, draft guidance)
 
-This universal approach enables our MCP Project to serve as a comprehensive compliance intelligence platform across multiple regulatory contexts.
+This universal approach enables the Universal_FSCompliance_MCP Project to serve as a comprehensive compliance intelligence platform across multiple regulatory contexts.
 
 ## Development Guidelines
 
@@ -132,8 +132,8 @@ This universal approach enables our MCP Project to serve as a comprehensive comp
 - **Consultation Document Analysis**: Implement `analyze_consultation_impact` tool to transform regulatory uncertainty into strategic planning intelligence
 
 ### Project vs Product Naming:
-- **Our MCP Project**: Refers to project, codebase, development initiative - use in technical documentation, git commits, code comments
-- **Our MCP Product**: Refers to deployed product - use in user-facing interfaces, API responses, configuration
+- **The Universal_FSCompliance_MCP Project**: Refers to project, codebase, development initiative - use in technical documentation, git commits, code comments
+- **The Universal_FSCompliance_MCP Product**: Refers to deployed product - use in user-facing interfaces, API responses, configuration
 
 ### Documentation Standards:
 - **UK Date Format**: Use "DD Month YYYY" format (e.g., "25 December 2024") in all documentation
@@ -193,6 +193,6 @@ When reviewing any .md file, follow the systematic methodology in ReviewRules.md
 **Created**: 25 December 2024  
 **Last Updated**: 9 July 2025  
 **Date last reviewed formally by ReviewRules.md**: 9 July 2025
-**Purpose**: Guidance for Claude Code when working with our MCP Project code, including strategic-to-implementation translation and systematic review processes.
+**Purpose**: Guidance for Claude Code when working with the Universal_FSCompliance_MCP Project code, including strategic-to-implementation translation and systematic review processes.
 
 ---

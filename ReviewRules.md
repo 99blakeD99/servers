@@ -1,6 +1,6 @@
 # Review Rules for MCP Project Documentation
 
-This document establishes a systematic methodology for reviewing .md files to ensure consistency, quality, and strategic alignment across our MCP Project documentation.
+This document establishes a systematic methodology for reviewing .md files to ensure consistency, quality, and strategic alignment across the Universal_FSCompliance_MCP Project documentation.
 
 ## Review Sequence
 
@@ -9,7 +9,8 @@ When reviewing any .md file, follow this systematic approach:
 ### 1. Content Quality Check
 - **Avoid repetition** - Don't repeat what has substantially been said before
 - **Professional tone** - Avoid colloquialisms, avoid being bombastic, be succinct, adopt a tone suited to the corporate world, stay constructive and positive, don't be scary, don't be hyperbolic
-- **No links** - Avoid links, either to our .mds or web links.
+- **No links** - Avoid links, either to our .mds or web links, except in README.md
+- **Check README.md links** - ensure that all the links in README.md work.
 - **Internal consistency** - Check the document's internal logic and consistency
 - **Special for OurStory.md** - If reviewing OurStory.md, allow warmer narrative tone that
   may differ from standard corporate style. Also pay special attention to whether any "Voice" part substantively repeats a previous "Voice" part, this document is being drafted on the fly and repetition is difficult for the author to monitor.
@@ -51,13 +52,10 @@ Read the .md being reviewed in complete sweeps beginning-to-end sweeps from each
 ## Naming Conventions
 
 **Reserved Usage of "MCP":**
-- **Our MCP Project** - refers to the overall project, codebase, and development initiative
-- **Our MCP Product** - refers to the product that enterprises deploy and use
-- **Any other use of "MCP" - is fine, for example when referring to the Model Context Protocol itself
-
-**Terminology Review Requirement:**
-- Where "FSCompliance" is referenced, change to "the MCP Project" and seek confirmation of each change
-- Maintain this distinction consistently across all documentation to clarify communications with different audiences
+- **The Universal_FSCompliance_MCP Project** - refers to the overall project, codebase, and development initiative
+- **The Universal_FSCompliance_MCP Product** - refers to the product that enterprises deploy and use
+- **Any other use of "MCP"** - is fine, for example when referring to the Model Context Protocol itself
+- Maintain this distinction consistently across all documentation to make sure meaning is unambiguous.
 
 ## Governance Support
 

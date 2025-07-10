@@ -1,22 +1,22 @@
-# Our MCP Project Frequently Asked Questions (FAQ)
+# The Universal_FSCompliance_MCP Project Frequently Asked Questions (FAQ)
 
 **The first MCP-integrated compliance platform for financial services**
 
-> **📝 Note:** This FAQ covers both current capabilities and planned functionality. For current implementation status, see [Tasks.md](Tasks.md).
+> **📝 Note:** This FAQ covers both current capabilities and planned functionality. For current implementation status, see Tasks.md.
 
 ---
 
 ## 🎯 Strategic Positioning
 
-### What is our MCP Product?
+### What is the Universal_FSCompliance_MCP Product?
 
-**Our MCP Product is what is being produced by Our MCP Project is the universal compliance intelligence platform for financial services** - the first platform designed specifically to make regulatory intelligence accessible to any AI agent through Model Context Protocol (MCP) integration.
+**The Universal_FSCompliance_MCP Product produced by The Universal_FSCompliance_MCP Project is the universal compliance intelligence platform for financial services** - the first platform designed specifically to make regulatory intelligence accessible to any AI agent through Model Context Protocol (MCP) integration.
 
 We transform compliance from a regulatory burden into intelligence that scales with AI adoption, ultimately serving the goal of **making it easier to bring the right financial products safely to consumers**.
 
 ### What does "universal compliance platform" mean?
 
-Our MCP Product rapidly ingests any well-articulated **Standard**, using the term broadly to include:
+The Universal_FSCompliance_MCP Product rapidly ingests any well-articulated **Standard**, using the term broadly to include:
 
 - **Regulatory frameworks** (FCA Handbook, SEC rules, MiFID II, Basel III)
 - **Industry codes** (conduct codes, best practice guidelines)  
@@ -27,9 +27,9 @@ Our MCP Product rapidly ingests any well-articulated **Standard**, using the ter
 
 The **FCA Handbook is our first Standard** - a proof of concept. Other standards will be rapidly processed using the architectures established through the FCA Handbook implementation.
 
-### How is Our MCP Product different from other compliance tools?
+### How is The Universal_FSCompliance_MCP Product different from other compliance tools?
 
-Our MCP Product is positioned as the **first MCP-integrated compliance platform**, providing unique advantages:
+The Universal_FSCompliance_MCP Product is positioned as the **first MCP-integrated compliance platform**, providing unique advantages:
 
 - **AI-Agent Native Design**: Built specifically for AI agent interaction, not retrofitted human interfaces
 - **Open-Source Transparency**: Auditable compliance logic with enterprise-grade security
@@ -40,20 +40,20 @@ Our MCP Product is positioned as the **first MCP-integrated compliance platform*
 
 ## 💡 Value Proposition
 
-### How does Our MCP Product "slice through red tape"?
+### How does The Universal_FSCompliance_MCP Product "slice through red tape"?
 
 Compliance with legal, regulatory, and industry requirements has become unmanageable for Financial Services. Requirements proliferate at an accelerating rate, creating mounting friction, costs, and reduced agility that holds back financial innovation.
 
-**Our MCP Product slices through this red tape by:**
+**The Universal_FSCompliance_MCP Product slices through this red tape by:**
 
 - **Enabling senior executive focus**: Compliance professionals carry out strategic tasks rather than getting entangled in regulatory small-print
 - **Transforming regulatory burden**: Converting compliance obstacles into intelligence that enables better decision-making
 - **Scaling human effectiveness**: AI handles analysis complexity while humans retain final responsibility and decision authority
 - **Accelerating innovation**: Making it easier to bring the right financial products safely to consumers
 
-### What makes Our MCP Product effective for compliance professionals?
+### What makes The Universal_FSCompliance_MCP Product effective for compliance professionals?
 
-Our MCP Product **increases the effectiveness of compliance professionals** by:
+The Universal_FSCompliance_MCP Product **increases the effectiveness of compliance professionals** by:
 
 - **Automated Analysis**: AI handles time-consuming document review and gap detection
 - **Expert Intelligence**: Proven compliance analysis through Claude 3.5 Sonnet's regulatory expertise
@@ -61,18 +61,18 @@ Our MCP Product **increases the effectiveness of compliance professionals** by:
 - **Audit Preparation**: Comprehensive evidence collection and compliance documentation
 - **Regulatory Monitoring**: Real-time tracking of regulatory changes and impact assessment
 
-**Humans retain complete responsibility** for all compliance decisions - Our MCP Product provides intelligence to support professional decision-making, never to replace it.
+**Humans retain complete responsibility** for all compliance decisions - The Universal_FSCompliance_MCP Product provides intelligence to support professional decision-making, never to replace it.
 
-### How does Our MCP Product handle consultation documents?
+### How does The Universal_FSCompliance_MCP Product handle consultation documents?
 
-**Our MCP Product transforms consultation document burden from reactive scrambling to proactive strategic planning.** Consultation documents represent one of the most burdensome and uncertain aspects of financial services compliance, creating massive resource drain through:
+**The Universal_FSCompliance_MCP Product transforms consultation document burden from reactive scrambling to proactive strategic planning.** Consultation documents represent one of the most burdensome and uncertain aspects of financial services compliance, creating massive resource drain through:
 
 - **Uncertain requirements** with shifting interpretations and timelines
 - **Speculative compliance work** preparing for potential changes
 - **Resource-intensive analysis** of complex regulatory proposals
 - **Strategic planning paralysis** from regulatory uncertainty
 
-**Our MCP Product changes this by enabling institutions to:**
+**The Universal_FSCompliance_MCP Product changes this by enabling institutions to:**
 
 - **Assess impact systematically** - "How would X product be affected by proposed changes?"
 - **Plan costs strategically** - "What implementation costs arise from these proposals?"
@@ -83,7 +83,7 @@ This consultation intelligence capability provides **unique competitive advantag
 
 ### How does this benefit consumers?
 
-All Our MCP Product capabilities **ultimately serve the goal of making it easier to bring the right financial products safely to consumers**. By reducing regulatory friction and enabling faster, more confident compliance decisions, financial institutions can:
+All The Universal_FSCompliance_MCP Product capabilities **ultimately serve the goal of making it easier to bring the right financial products safely to consumers**. By reducing regulatory friction and enabling faster, more confident compliance decisions, financial institutions can:
 
 - **Innovate responsibly**: Develop new products with confidence in regulatory compliance
 - **Reduce costs**: Lower compliance burden translates to better consumer pricing
@@ -94,27 +94,27 @@ All Our MCP Product capabilities **ultimately serve the goal of making it easier
 
 ## 🤖 AI Tools - Turbocharging AI
 
-### How do Our MCP Product MCP tools turbocharge AI effectiveness?
+### How do The Universal_FSCompliance_MCP Product MCP tools turbocharge AI effectiveness?
 
-**Our MCP Product MCP tools transform general AI agents into compliance experts** by providing specialized compliance intelligence that dramatically enhances AI effectiveness. Instead of generic responses, AI agents gain access to:
+**The Universal_FSCompliance_MCP Product MCP tools transform general AI agents into compliance experts** by providing specialized compliance intelligence that dramatically enhances AI effectiveness. Instead of generic responses, AI agents gain access to:
 
 - **Deep regulatory expertise** through Claude 3.5 Sonnet's proven compliance intelligence
 - **Specialized compliance functions** designed specifically for financial services workflows
 - **Structured regulatory knowledge** from comprehensive Standards ingestion and analysis
 - **Professional-grade outputs** suitable for regulatory scrutiny and business decisions
 
-### How do AI agents use Our MCP Product?
+### How do AI agents use The Universal_FSCompliance_MCP Product?
 
-AI agents discover and use Our MCP Product through the standard **Model Context Protocol (MCP)** workflow:
+AI agents discover and use The Universal_FSCompliance_MCP Product through the standard **Model Context Protocol (MCP)** workflow:
 
-1. **Resource Declaration**: AI agent configured to include Our MCP Product MCP server as available resource
-2. **Tool Discovery**: AI agent reads Our MCP Product JSON manifest to understand available capabilities
-3. **Intelligent Selection**: Based on user queries (e.g., "analyze this policy for FCA compliance"), AI agent chooses appropriate Our MCP Product tools
+1. **Resource Declaration**: AI agent configured to include The Universal_FSCompliance_MCP Product MCP server as available resource
+2. **Tool Discovery**: AI agent reads The Universal_FSCompliance_MCP Product JSON manifest to understand available capabilities
+3. **Intelligent Selection**: Based on user queries (e.g., "analyze this policy for FCA compliance"), AI agent chooses appropriate The Universal_FSCompliance_MCP Product tools
 4. **Tool Execution**: AI agent calls specific tools like `analyze_compliance`, `detect_gaps`, `analyze_consultation_impact`
 
 **This happens automatically** - AI agents intelligently choose the right compliance tools without manual configuration, becoming dramatically more effective at compliance tasks.
 
-### What MCP tools does Our MCP Product provide?
+### What MCP tools does The Universal_FSCompliance_MCP Product provide?
 
 **Current Tools (Phase 2 Complete):**
 - `analyze_compliance` - Comprehensive policy analysis against FCA requirements
@@ -133,22 +133,22 @@ AI agents discover and use Our MCP Product through the standard **Model Context 
 - `generate_compliance_reports` - Automated regulatory report generation
 - `suggest_remediation` - AI-powered recommendations for addressing compliance gaps
 
-### Can any AI agent use Our MCP Product?
+### Can any AI agent use The Universal_FSCompliance_MCP Product?
 
-**Yes - Our MCP Product works with any AI agent regardless of the enterprise's LLM choice.** This LLM-open architecture provides core advantages:
+**Yes - The Universal_FSCompliance_MCP Product works with any AI agent regardless of the enterprise's LLM choice.** This LLM-open architecture provides core advantages:
 
 - **Enterprise Flexibility**: Organizations can use Claude, ChatGPT, custom models, or any AI agent
-- **No Vendor Lock-in**: Our MCP Product MCP server operates independently from enterprise AI agent choices
-- **Proven Intelligence**: Our MCP Product uses Claude 3.5 Sonnet internally for optimal compliance accuracy
+- **No Vendor Lock-in**: The Universal_FSCompliance_MCP Product MCP server operates independently from enterprise AI agent choices
+- **Proven Intelligence**: The Universal_FSCompliance_MCP Product uses Claude 3.5 Sonnet internally for optimal compliance accuracy
 - **Zero Adoption Barriers**: No corporate LLM standardization decisions required
 
 ---
 
 ## 🏗️ Technical Architecture
 
-### What technology architecture does Our MCP Product use?
+### What technology architecture does The Universal_FSCompliance_MCP Product use?
 
-Our MCP Product implements **layered architecture as the first MCP-integrated compliance platform**:
+The Universal_FSCompliance_MCP Product implements **layered architecture as the first MCP-integrated compliance platform**:
 
 ```
 ┌─────────────────────────────────────────┐
@@ -157,7 +157,7 @@ Our MCP Product implements **layered architecture as the first MCP-integrated co
 └─────────────────────────────────────────┘
                     │ MCP Protocol
 ┌─────────────────────────────────────────┐
-│        Our MCP Product MCP Server         │
+│        The Universal_FSCompliance_MCP Product MCP Server         │
 │    (Runs Claude 3.5 Sonnet Default)    │
 └─────────────────────────────────────────┘
                     │
@@ -184,16 +184,16 @@ Our MCP Product implements **layered architecture as the first MCP-integrated co
 Claude 3.5 Sonnet went through **an extreme and extensive testing process in the development of the MCP itself, in ways that are highly analogous to the way that the MCP will actually be used**. This amounted to a profound real-world validation, which furthermore is ongoing as the MCP's capabilities expand. This validation embraces complex regulatory analysis, multi-document synthesis, construction of tools that meet Compliance professionals' actual needs, and technical architecture tasks.
 
 **Key advantages:**
-- **Proven compliance accuracy** through extensive Our MCP Product development validation
+- **Proven compliance accuracy** through extensive The Universal_FSCompliance_MCP Product development validation
 - **Enterprise data security** with Anthropic's Zero Data Retention and HIPAA-eligible services
 - **Professional-grade output** consistently suitable for regulatory scrutiny
 - **Cost-effectiveness** for compliance use cases where accuracy is critical
 
 **Multi-model support** available: LLaMA 3, Mistral Medium, custom models, with intelligent routing based on complexity and requirements.
 
-### Can Our MCP Product be self-hosted?
+### Can The Universal_FSCompliance_MCP Product be self-hosted?
 
-**Yes - Our MCP Product is designed for flexible deployment:**
+**Yes - The Universal_FSCompliance_MCP Product is designed for flexible deployment:**
 
 **Self-Hosted Benefits:**
 - **Complete data control** - Sensitive financial data never leaves your infrastructure
@@ -209,7 +209,7 @@ Claude 3.5 Sonnet went through **an extreme and extensive testing process in the
 
 **Recommendation**: Start with cloud for evaluation, move to self-hosted for production if you have high volume usage, strict data privacy requirements, and technical expertise.
 
-### How does Our MCP Product ensure quality and accuracy?
+### How does The Universal_FSCompliance_MCP Product ensure quality and accuracy?
 
 **Multi-Layer Quality Assurance:**
 
@@ -225,9 +225,9 @@ Claude 3.5 Sonnet went through **an extreme and extensive testing process in the
 
 ## 🔒 Security & Privacy
 
-### How secure is Our MCP Product for financial data?
+### How secure is The Universal_FSCompliance_MCP Product for financial data?
 
-Our MCP Product implements **enterprise-grade security** designed for financial services:
+The Universal_FSCompliance_MCP Product implements **enterprise-grade security** designed for financial services:
 
 **Data Protection:**
 - **Zero Data Retention** options with automatic deletion capabilities
@@ -247,7 +247,7 @@ Our MCP Product implements **enterprise-grade security** designed for financial 
 
 ### What about AI safety and guardrails?
 
-Our MCP Product implements comprehensive **AI safety measures**:
+The Universal_FSCompliance_MCP Product implements comprehensive **AI safety measures**:
 
 **Input Guardrails:**
 - PII detection and filtering
@@ -302,7 +302,7 @@ Our MCP Product implements comprehensive **AI safety measures**:
 
 **Quick Start:**
 1. **Evaluation**: Start with hosted service for immediate access
-2. **Integration**: Configure your AI agents to use Our MCP Product MCP tools
+2. **Integration**: Configure your AI agents to use The Universal_FSCompliance_MCP Product MCP tools
 3. **Pilot**: Run compliance analysis on sample policies
 4. **Scale**: Expand usage based on results and requirements
 5. **Deploy**: Consider self-hosted option for production if needed
@@ -316,7 +316,7 @@ Our MCP Product implements comprehensive **AI safety measures**:
 
 ## 🔮 Future & Expansion
 
-### How will Our MCP Product expand beyond FCA?
+### How will The Universal_FSCompliance_MCP Product expand beyond FCA?
 
 The **universal Standards engine** rapidly ingests any well-articulated Standard:
 
@@ -334,7 +334,7 @@ Each new Standard integration makes it easier to bring innovative financial prod
 
 ### How can organizations contribute?
 
-Our MCP Product embraces **community collaboration**:
+The Universal_FSCompliance_MCP Product embraces **community collaboration**:
 
 - **Regulatory expertise**: Share interpretations and compliance strategies
 - **Technical contributions**: Framework parsers and validation datasets
@@ -347,9 +347,9 @@ Our MCP Product embraces **community collaboration**:
 
 ## 👥 Human Oversight & Professional Responsibility
 
-### What role do humans play in Our MCP Product recommendations?
+### What role do humans play in The Universal_FSCompliance_MCP Product recommendations?
 
-**Our MCP Product provides compliance intelligence to support professional decision-making, never to replace it.**
+**The Universal_FSCompliance_MCP Product provides compliance intelligence to support professional decision-making, never to replace it.**
 
 **Human Requirements:**
 - **Complete accountability** - Users retain full responsibility for all compliance decisions
@@ -358,7 +358,7 @@ Our MCP Product embraces **community collaboration**:
 - **Documentation required** - Human review and decision rationale must be documented
 
 **AI as Decision Support:**
-- Our MCP Product handles complex analysis so professionals can focus on strategic decisions
+- The Universal_FSCompliance_MCP Product handles complex analysis so professionals can focus on strategic decisions
 - AI provides intelligence and recommendations, humans make final compliance choices
 - Professional validation required before implementing any AI recommendations
 - Complex interpretations require qualified legal and compliance professional consultation
@@ -368,17 +368,17 @@ Our MCP Product embraces **community collaboration**:
 **Professional Responsibility:**
 - No warranty for accuracy - professional validation required for all decisions
 - Users must ensure adherence to all applicable regulations and current guidance
-- Our MCP Product analysis represents point-in-time assessment based on available data
+- The Universal_FSCompliance_MCP Product analysis represents point-in-time assessment based on available data
 - Regulatory requirements continuously evolve - maintain current awareness essential
 
 **Technology Platform Disclaimer:**
-Our MCP Product is a technology platform providing AI-powered compliance analysis tools. It does not provide legal or regulatory advice. Our expertise lies specifically in the intersection of AI technology and compliance processes. Users remain responsible for compliance decisions and should consult qualified professionals for definitive guidance.
+The Universal_FSCompliance_MCP Product is a technology platform providing AI-powered compliance analysis tools. It does not provide legal or regulatory advice. Our expertise lies specifically in the intersection of AI technology and compliance processes. Users remain responsible for compliance decisions and should consult qualified professionals for definitive guidance.
 
 ---
 
 ## About
 
-Our MCP Product was founded by Blake Dempster, a UK actuary with extensive financial services experience and thought leader in the intersection of AI and financial services. The project represents a collaboration between human expertise and AI capability, demonstrating how AI can transform regulatory compliance. For the complete development narrative, see [OurStory.md](OurStory.md).
+The Universal_FSCompliance_MCP Product was founded by Blake Dempster, a UK actuary with extensive financial services experience and thought leader in the intersection of AI and financial services. The project represents a collaboration between human expertise and AI capability, demonstrating how AI can transform regulatory compliance. For the complete development narrative, see OurStory.md.
 
 
 ## About This Document
@@ -388,8 +388,8 @@ Our MCP Product was founded by Blake Dempster, a UK actuary with extensive finan
 **Created**: 25 December 2024  
 **Last Updated**: 9 July 2025  
 **Date last reviewed formally by ReviewRules.md**: 9 July 2025
-**Purpose**: Comprehensive FAQ for our MCP Project - the first MCP-integrated compliance platform for financial services, organized around core project touchstones.
+**Purpose**: Comprehensive FAQ for the Universal_FSCompliance_MCP Project - the first MCP-integrated compliance platform for financial services, organized around core project touchstones.
 
-*This FAQ provides essential information about Our MCP Product's mission to slice through regulatory red tape and make it easier to bring the right financial products safely to consumers through AI-powered compliance intelligence.*
+*This FAQ provides essential information about The Universal_FSCompliance_MCP Product's mission to slice through regulatory red tape and make it easier to bring the right financial products safely to consumers through AI-powered compliance intelligence.*
 
 ---
