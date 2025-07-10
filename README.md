@@ -1,9 +1,26 @@
-# Our MCP Project
+**⚠️ EARLY STAGE DEVELOPMENT PROJECT ⚠️**
+
+# Universal_FSCompliance_MCP Project
 
 **The open-source universal compliance intelligence platform built exclusively for financial services.** We rapidly ingest ANY well-articulated Standard to make compliance intelligence accessible to any AI agent through innovative MCP integration - slicing through red tape to enable compliance professionals to carry out senior executive tasks rather than get bogged down in small-print. **Our MCP tools turbocharge AI effectiveness by transforming general AI agents into compliance experts**, ultimately serving the goal of **making it easier to bring the right financial products safely to consumers**.
 
 ## 📊 Market Opportunity
 **RegTech projected to grow from $11.7B to $83.8B by 2033 (21.6% CAGR)** *- Allied Market Research, 2025* - Our MCP Project is positioned as the first MCP-integrated universal compliance platform for financial services.
+
+## 🚧 Development Status
+
+This repository represents an **active development project** building the Universal FSCompliance MCP platform. 
+
+**Current Status:**
+- ✅ **Technical Architecture Complete** - Core framework and design established
+- ✅ **Phase 2 Foundation Built** - Python package structure and MCP server framework implemented  
+- 🔄 **Phase 3 In Development** - Core compliance tools and LLM integration actively being built
+- ⏳ **Not Yet Operational** - Platform not ready for production use
+
+**For Investors/Evaluators:**
+This repository demonstrates our technical capability, strategic thinking, and development progress. The comprehensive documentation shows our approach to building enterprise-grade compliance intelligence tools.
+
+**Timeline:** Targeting operational alpha version Q3 2025.
 
 ## 🎯 Key Documents 
 
@@ -55,7 +72,7 @@ Using the architectures developed for our first ingested Standard, the FCA Handb
 - **Regulatory Relationship Mapping**: Visualize connections between regulations and business activities
 - **Customer Scenario Validation**: Real-time compliance checking (e.g., "For customers aged 60+ holding Bitcoin, did risk warnings meet FCA requirements?")
 
-**📈 Project Status**: Phase 2 Complete - Core Intelligence & LLM Abstraction Layer implemented. **Claude 3.5 Sonnet selected as default LLM** based on extensive real-world validation through comprehensive development.
+**📈 Project Status**: Phase 2 Foundation Complete - Core architecture and framework established. Active development of Phase 3 compliance tools underway. **Claude 3.5 Sonnet selected as default LLM** based on extensive real-world validation through comprehensive development.
 
 ## Target Users
 
