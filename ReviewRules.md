@@ -63,7 +63,7 @@ Read the .md being reviewed in complete sweeps beginning-to-end sweeps from each
 - **About section requirement** - Check if the .md has an About section at the end, if not add it
 - **Formal review tracking** - Add "Date last reviewed formally by ReviewRules.md: [date]" to the About section
 - **Document changes** - Significant changes should be noted and justified
-- **Date format standard** - Use UK date format "DD Month YYYY" (e.g., "25 December 2024") for all Created and Last Updated dates
+- **Date format standard** - Use UK date format "DD Month YYYY" (e.g., "9 July 2025") for Last Updated dates
 
 ---
 

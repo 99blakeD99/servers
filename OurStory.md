@@ -188,7 +188,7 @@ The permutations involved in checking every .md against all other .mds will even
 
 #### The Factual Recorder Voice
 
-CC, let's create a Touchstones.md containing core principles, then modify ReviewCheck to delete the requirement to check all .mds with each other for consistency, forget about the other .mds, just check consistency with Touchstones.md. Do you think this is a good idea?
+CC, let's create a Touchstones.md containing core principles, then modify ReviewCheck to delete the requirement to check all .mds with each other for consistency. ReviewCheck.md needs to focus exclusively on the .md it is working on, we can add in to ReviewCheck.md the instruction: now check consistency with Touchstones.md. Do you think this is a good idea?
 
 Yes it is. Good then, can you make your best first draft.
 

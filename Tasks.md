@@ -380,7 +380,7 @@ This document tracks development phases for the Universal_FSCompliance_MCP Proje
 *Strategic initiatives that span multiple phases and support overall mission success*
 
 ### Documentation Governance (Ongoing)
-- **Monthly Review Cycle**: Regular formal review of key documentation per GithubCommit.md pre-commit governance requirements
+- **Milestone Review Cycle**: Regular formal review of key documentation per internal/MilestoneGithubCommit.md governance requirements
 - **Strategic Alignment**: Ongoing verification that all documentation aligns with current Touchstones.md principles
 - **Professional Standards**: Maintain corporate-grade documentation quality for enterprise evaluation
 - **Governance Tracking**: Systematic "Date last reviewed formally by ReviewRules.md" maintenance
