@@ -146,7 +146,7 @@ Preservation of proven Compliance intelligence through architectural separation
 
 #### The Technical Architect Voice
 
-Having so many .mds raised a problem. What if one .md was inadvertently different from another. Well, we could design a review process in which CC specifically checked for inconsistencies between .mds. And also, that relevant information from the new .md was inserted in to CLAUDE.md. And also… actually there were quite a lot of review requirements. Oh well, no problem, just create another .md called ReviewRules.md, adding new requirements as they became clear (like: don’t be verbose; adopt a professional tone; ensure wording is clear as to whether the product or the project is being referred to, and so on), include the requirement to check consistency between all the project .mds, and we’re all good to go.
+Having so many .mds raised a problem. What if one .md was inadvertently different from another. Well, we could design a review process in which CC specifically checked for inconsistencies between .mds. And also, that relevant information from the new .md was inserted in to CLAUDE.md. And also… actually there were quite a lot of review requirements. Oh well, no problem, just create another .md called MDqualityCheck.md, adding new requirements as they became clear (like: don’t be verbose; adopt a professional tone; ensure wording is clear as to whether the product or the project is being referred to, and so on), include the requirement to check consistency between all the project .mds, and we’re all good to go.
 
 #### The Compliance Officer Voice
 
@@ -174,11 +174,11 @@ Expansion of tools is a smart move, it's unlikely that any non-AI compliance too
 
 Checked whether CC agreed with necessity for Review.Rules.md. Oh yes indeed CC most certainly and absolutely did.
 
-Okay then CC, draft a suitable ReviewRules.md.
+Okay then CC, draft a suitable MDqualityCheck.md.
 
-Done in 20 seconds. A bit of BD-CC back and forth to refine ReviewRules.md. All done.
+Done in 20 seconds. A bit of BD-CC back and forth to refine MDqualityCheck.md. All done.
 
-Now we had a systematic review process. In AI parlance, we had implemented a prompt engineering technique, feeding ReviewRules.md into the prompt whenever we asked for a formal Review of another .md.
+Now we had a systematic review process. In AI parlance, we had implemented a prompt engineering technique, feeding MDqualityCheck.md into the prompt whenever we asked for a formal Review of another .md.
 
 Putting these practices into effect, it was clear they worked very well. Until they didn't. Our .md files were proliferating and we were effectively asking that every one of them should be compared with every other of them, a demand of stupefying complexity. We would need to do something to sort this out. 
 
@@ -309,16 +309,30 @@ Created Funding.md
 
 Created OurStory.md
 
-Changed ReviewRules.md to require new Viewpoints searchlight inspections.
+Changed MDqualityCheck.md to require new Viewpoints searchlight inspections.
 
-Ran the new ReviewRules.md on our Foundational Documents (CLAUDE.md, Planning.md, README.md and Rules.md), raised queries, resolved them, created updated versions.
+Ran the new MDqualityCheck.md on our Foundational Documents (CLAUDE.md, Planning.md, README.md and Rules.md), raised queries, resolved them, created updated versions.
 
-Ran the new ReviewRules.md on some other .mds as instructed, sorted out the issues.
+Ran the new MDqualityCheck.md on some other .mds as instructed, sorted out the issues.
 
 Did outstanding todo's to leave project sound and neat at end of 8-day Sprint.
 
 ### The CEO Voice
 
-This 8-Day Sprint has expanded our worlds.  My #1 lesson?  Most people think of intelligence as providing good answers to hard questions. LLMs are certainly good at that. But there’s another angle: coming up with the right question, hard or not – humans can do that. Perhaps that’s how to think of the new Human-Intelligence Artificial Intelligence interaction. It certainly captures the BD-CC experience.  We’ll see.
+This 8-Day Sprint has expanded our worlds.  My #1 lesson?  Most people think of intelligence as providing good answers to hard questions. LLMs are certainly good at that. But there's another angle: coming up with the right question, hard or not – humans can do that. Perhaps that's how to think of the new Human-Intelligence Artificial Intelligence interaction. It certainly captures the BD-CC experience.  We'll see.
+
+---
+
+## About This Document
+
+**Author**: Blake Dempster, Founder, CEO, Principal Architect  
+**Co-Authored by**: Claude Code (claude.ai/code)  
+**Created**: 25 December 2024  
+**Last Updated**: 9 July 2025  
+**Date last reviewed formally by MDqualityCheck.md**: 9 July 2025  
+**Status**: (okay)
+**Purpose**: Narrative documentation of the Universal_FSCompliance_MCP Project development sprint, providing authentic project experience for strategic positioning and investor communication.
+
+---
 
 

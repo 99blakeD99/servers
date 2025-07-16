@@ -14,7 +14,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **`Tasks.md`**: Current and completed development tasks organized by development phases
 - **`ComplianceTools.md`**: Strategic market analysis and comprehensive MCP tool roadmap
 - **`LLMChoice.md`**: LLM selection strategy and Claude 3.5 Sonnet decision rationale
-- **`ReviewRules.md`**: Systematic methodology for document reviews with multi-stakeholder perspectives
+- **`MDqualityCheck.md`**: Systematic methodology for document reviews with multi-stakeholder perspectives
 - **`Touchstones.md`**: Core project principles and strategic consistency framework
 
 ### Documentation & Brand Materials
@@ -76,7 +76,7 @@ The Universal_FSCompliance_MCP Project follows a layered architecture as the fir
 - **LLM Strategy**: Claude 3.5 Sonnet selected as default based on extensive real-world validation through the Universal_FSCompliance_MCP Project development; no fine-tuning architectural decision per `LLMChoice.md`
 - **LLM Independence**: Our MCP server runs its own LLM completely separately from enterprise AI agent LLM choices, eliminating adoption barriers from corporate LLM standardization decisions
 - **Database Evolution**: Migrating to Supabase (PostgreSQL + PGVector) per `DatabaseStrategy.md` for simplified architecture and real-time capabilities
-- **MCP Tool Priority**: 6 priority tools identified in `ComplianceTools.md` for Phase 3 implementation
+- **MCP Tool Priority**: 9 priority tools identified in `ComplianceTools.md` for Phase 3 implementation
 - **Brand Positioning**: Positioned as first MCP-integrated compliance platform per `Brand.md` competitive analysis
 - **UI/UX Design**: Professional financial services interface specifications detailed in `UserInterface.md`
 
@@ -102,15 +102,37 @@ This universal approach enables the Universal_FSCompliance_MCP Project to serve 
 
 ## Development Guidelines
 
-**Always consult `Rules.md` before starting development work.** Key principles:
+**Consult `Rules.md` for development standards and `Planning.md` for architecture decisions before starting development work.** In case of conflicts, this document hierarchy applies: 1) CLAUDE.md, 2) Rules.md, 3) Planning.md, 4) Other strategic documents.
+
+**Key principles:**
 
 - Follow layered architecture from `Planning.md`
 - Maintain MCP protocol compliance
 - Create comprehensive Pytest unit tests
-- Never exceed 500 lines per file
+- **Pragmatic Excellence**: Balance quality with practical implementation - focus on core compliance functionality first, then optimize
+- **Iterative Development**: Implement minimum viable functionality first, then enhance based on validation results
+- Follow file size guidelines per Rules.md (500 lines preferred, 1000 lines maximum for complex tools)
 - Include regulatory source citations in compliance logic
 - Implement privacy controls for all memory features
 - Validate all inputs, especially financial/customer data
+
+## Quality Standards (from TechnicalArchitecture.md)
+
+**Performance Targets:**
+- **Test Coverage**: 90%+ for core compliance logic, 75%+ for integration components, 60%+ for UI/UX components
+- **Response Time**: <5 seconds for standard queries, <30 seconds for complex analysis, <60 seconds for comprehensive document analysis
+- **Accuracy**: Phased targets - 75% initial accuracy, 85% by production, 95% long-term goal (validated through Ground Truth benchmarking)
+- **Uptime**: 99.9% system availability target
+- **Concurrent Users**: Support 50+ simultaneous connections
+- **Throughput**: 1000+ queries per hour capacity
+
+**Testing Requirements:**
+- **Unit Tests**: Individual component testing
+- **Integration Tests**: System component interaction testing
+- **End-to-End Tests**: Complete workflow validation
+- **Performance Tests**: Load and stress testing
+- **Security Tests**: Vulnerability and penetration testing
+- **Ground Truth Validation**: Enterprise-provided real compliance scenarios for accuracy benchmarking
 
 ## Strategic-to-Implementation Translation
 
@@ -127,9 +149,20 @@ This universal approach enables the Universal_FSCompliance_MCP Project to serve 
 - **Standard Models + RAG**: No fine-tuning infrastructure - use standard LLMs with advanced retrieval
 
 ### From ComplianceTools.md:
-- **MCP Tool Priority**: Implement 6 priority tools in Phase 3 (monitor_regulatory_changes, analyze_consultation_impact, score_compliance_risk, track_audit_evidence, map_regulatory_relationships, validate_customer_scenarios)
+- **MCP Tool Priority**: Implement 9 priority tools (quickly_check_compliance, systematically_analyse_compliance_implications, identify_compliance_requirements_in_specific_case, prepare_draft_compliance_audit_report, map_relationships, validate_ground_truth, ingest_new_identified_standard, update_identified_standard, suggest_remediation)
 - **Tool Specifications**: Each tool requires specific schemas, validation, and response formats
-- **Consultation Document Analysis**: Implement `analyze_consultation_impact` tool to transform regulatory uncertainty into strategic planning intelligence
+- **Tool Naming Convention**: Use lowercase format for tool names (e.g., `quickly_check_compliance`, not `quickly_check_Compliance`)
+- **Ground Truth Validation**: Implement `validate_ground_truth` tool for enterprise accuracy benchmarking with confidential testing environment
+
+### From LegalLiability.md:
+- **Liability Framework Integration**: Implement user interface components that integrate liability reminders and warnings
+- **Initial Liability Acceptance**: Code must require acceptance of liability terms before system access
+- **Periodic Liability Reinforcement**: Implement notifications during extended user sessions to reinforce liability framework
+- **Tool-Specific Warnings**: Implement warnings for high-risk activities, particularly Standard ingestion using `ingest_new_identified_standard` tool
+- **Audit Trail Requirements**: Implement comprehensive logging and documentation systems for compliance audit purposes
+- **Permanent Record Systems**: Code must support user IT systems maintaining permanent records of tool usage, outputs, and professional review processes
+- **Emergency Procedures**: Implement system limitation warnings and alternative compliance verification prompts during errors/outages
+- **User Responsibility Reinforcement**: All tool outputs must include disclaimers that AI-generated content requires human review and validation
 
 ### Project vs Product Naming:
 - **The Universal_FSCompliance_MCP Project**: Refers to project, codebase, development initiative - use in technical documentation, git commits, code comments
@@ -139,7 +172,7 @@ This universal approach enables the Universal_FSCompliance_MCP Project to serve 
 - **UK Date Format**: Use "DD Month YYYY" format (e.g., "25 December 2024") in all documentation
 - **Professional Tone**: Corporate financial services audience - avoid colloquialisms, be succinct
 - **Touchstones Consistency**: Check strategic decisions against Touchstones.md principles
-- **Document Quality**: Follow ReviewRules.md methodology for systematic document reviews with multi-stakeholder perspectives
+- **Document Quality**: Follow MDqualityCheck.md methodology for systematic document reviews with multi-stakeholder perspectives
 
 ## Target Users
 
@@ -157,21 +190,24 @@ Based on ComplianceTools.md analysis and current MCP tool roadmap:
 2. **Regulatory Intelligence**: AI agents extract relevant requirements from FCA Handbook using `extract_requirements` for specific policy or scenario analysis
 3. **Compliance Assessment**: AI agents provide comprehensive policy analysis against regulatory requirements with confidence scoring
 
-### Advanced Use Cases (Phase 3 Implementation)
-4. **Regulatory Change Monitoring**: AI agents track FCA Handbook updates and assess impact on existing compliance frameworks using `monitor_regulatory_changes`
-5. **Consultation Document Analysis**: AI agents analyze consultation documents to transform regulatory uncertainty from reactive scrambling to proactive strategic planning using `analyze_consultation_impact`
-6. **Risk-Based Compliance**: AI agents score compliance risk across policies and business activities using `score_compliance_risk` with prioritization recommendations  
-7. **Audit Trail Management**: AI agents collect and organize compliance evidence for regulatory examinations using `track_audit_evidence`
-8. **Regulatory Relationship Mapping**: AI agents visualize connections between regulations and business activities using `map_regulatory_relationships`
-9. **Customer Scenario Validation**: AI agents validate customer scenarios against FCA requirements (e.g., "For customers aged 60+ holding Bitcoin, did the risk warnings meet FCA requirements?") using `validate_customer_scenarios`
+### Advanced Use Cases (Core Tool Implementation)
+4. **Quick Compliance Assessment**: AI agents perform rapid compliance checking using `quickly_check_compliance` for policy conceptualization assistance
+5. **Systematic Compliance Analysis**: AI agents conduct detailed strategic analysis using `systematically_analyse_compliance_implications` with risk scoring and remediation guidance
+6. **Requirement Identification**: AI agents extract context-specific regulatory requirements using `identify_compliance_requirements_in_specific_case`
+7. **Audit Preparation**: AI agents compile compliance evidence and prepare draft audit reports using `prepare_draft_compliance_audit_report`
+8. **Relationship Mapping**: AI agents visualize regulatory connections and business impact using `map_relationships`
+9. **Ground Truth Validation**: AI agents enable enterprise accuracy benchmarking using `validate_ground_truth` for confidential testing of system performance on real compliance data
+10. **Standard Ingestion**: AI agents enable user-driven expansion using `ingest_new_identified_standard` for platform growth (requires liability framework integration)
+11. **Standard Updates**: AI agents maintain system currency using `update_identified_standard` for automatic regulatory change monitoring
+12. **Gap Remediation**: AI agents provide actionable compliance solutions using `suggest_remediation` for gap resolution
 
 ### Future Use Cases (Phase 4+)
-9. **Automated Regulatory Reporting**: AI agents generate draft regulatory reports and submissions using `generate_compliance_reports`
-10. **Remediation Planning**: AI agents suggest specific compliance remediation actions using `suggest_remediation`
+13. **Automated Regulatory Reporting**: AI agents generate draft regulatory reports and submissions using `generate_compliance_reports`
+14. **Additional Capabilities**: Future tools based on user feedback and market validation
 
 ## Strategic Document Review Process
 
-When reviewing any .md file, follow the systematic methodology in ReviewRules.md:
+When reviewing any .md file, follow the systematic methodology in MDqualityCheck.md:
 1. **Content Quality**: Check professional tone, avoid repetition, ensure internal consistency
 2. **Touchstones Alignment**: Verify consistency with Touchstones.md principles
 3. **CLAUDE.md Impact**: Assess whether changes require updates to implementation guidance
@@ -179,10 +215,10 @@ When reviewing any .md file, follow the systematic methodology in ReviewRules.md
 
 **Coding-Relevant Documents** that may require CLAUDE.md updates:
 - Planning.md, LLMChoice.md, Rules.md, ComplianceTools.md, Tasks.md (direct coding impact)
-- FAQ.md, Brand.md, UserInterface.md (UI/UX and user-facing elements)
+- FAQ.md, Brand.md, UserInterface.md, LegalLiability.md (UI/UX and user-facing elements)
 
 **Strategic-Only Documents** (no CLAUDE.md impact):
-- FCAsandbox.md, TakeToMarket.md, DatabaseStrategy.md, MgmtImpactRules.md, UpdateCheck.md, Touchstones.md, ReviewRules.md
+- FCAsandbox.md, TakeToMarket.md, DatabaseStrategy.md, MgmtImpactRules.md, UpdateCheck.md, Touchstones.md, MDqualityCheck.md
 
 ---
 
@@ -191,8 +227,9 @@ When reviewing any .md file, follow the systematic methodology in ReviewRules.md
 **Author**: Blake Dempster, Founder, CEO, Principal Architect  
 **Co-Authored by**: Claude Code (claude.ai/code)  
 **Created**: 25 December 2024  
-**Last Updated**: 9 July 2025  
-**Date last reviewed formally by ReviewRules.md**: 9 July 2025
+**Last Updated**: 15 July 2025  
+**Date last reviewed formally by MDqualityCheck.md**: 9 July 2025  
+**Status**: (okay)
 **Purpose**: Guidance for Claude Code when working with the Universal_FSCompliance_MCP Project code, including strategic-to-implementation translation and systematic review processes.
 
 ---

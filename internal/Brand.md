@@ -1,6 +1,18 @@
-# FSCompliance Brand Positioning & Values
+# Universal_FSCompliance_MCP Brand Positioning & Values
 
-*Internal brand strategy document for FSCompliance MCP platform*
+*Internal brand strategy document for Universal_FSCompliance_MCP platform*
+
+## Instructions for when reverting to Brand.md:
+
+1. Scoop up anything useful now in Brand.md
+2. Collect from .claude.json.backup our discussions about name 
+3. Include in its entirety the report which researched fit of name with brand values (in which we got a score of 84%)
+4. Extract the brand values that we produced on the fly for that research
+5. Check whether they still fit: first suggest what approach is needed for such a check, and make sure we have evidence to justify the choice of brand values
+6. Formulate brand instructions such that for example if we construct UserInterface.html we can refer to such instructions
+7. Include in its entirety verbatim the anecdote about cliché so we can decide how to make use of it
+
+The intent of this exercise is to ensure that we arrive at good decisions, but also that we leave a record of the process used in arriving at this decision.
 
 ---
 
@@ -308,6 +320,7 @@
 **Co-Authored by**: Claude Code (claude.ai/code)  
 **Created**: 25 December 2024  
 **Last Updated**: 3 July 2025  
+**Status**: (do when ready)  
 **Purpose**: Comprehensive brand positioning and values framework for FSCompliance, including market positioning, competitive differentiation, and visual identity guidelines.
 
 *This brand framework integrates FSCompliance's mission to slice through regulatory red tape and make it easier to bring the right financial products safely to consumers through the first MCP-integrated compliance platform for financial services.*

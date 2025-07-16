@@ -61,6 +61,9 @@ This document tracks all todos identified during FSCompliance development, provi
 ### Documentation Formatting
 - ⏳ Remove subtitle from Planning.md header and add proper About section at end consistent with other .md documents
 
+### Legal & Corporate Structure
+- ⏳ **Later:** Create a suitable structure whereby ownership of Universal_FSCompliance_MCP is inside a limited liability vehicle. Consider legal, tax, domicile and marketing implications.
+
 ---
 
 ## Todo Categories
@@ -85,6 +88,9 @@ Technical development tasks, version control, and project management activities.
 
 ### Go-to-Market Strategy
 Sales, marketing, messaging, and business development activities.
+
+### Legal & Corporate Structure
+Corporate governance, legal entity formation, tax optimization, and regulatory compliance for business structure.
 
 ---
 

@@ -1,6 +1,6 @@
-# Review Rules for MCP Project Documentation
+# Quality Check Rules for MCP Project Documentation
 
-This document establishes a systematic methodology for reviewing .md files to ensure consistency, quality, and strategic alignment across the Universal_FSCompliance_MCP Project documentation.
+This document establishes a systematic methodology for quality checking .md files to ensure consistency, formatting standards, and strategic alignment across the Universal_FSCompliance_MCP Project documentation.
 
 ## Review Sequence
 
@@ -14,7 +14,7 @@ When reviewing any .md file, follow this systematic approach:
 - **Internal consistency** - Check the document's internal logic and consistency
 - **Special for OurStory.md** - If reviewing OurStory.md, allow warmer narrative tone that
   may differ from standard corporate style. Also pay special attention to whether any "Voice" part substantively repeats a previous "Voice" part, this document is being drafted on the fly and repetition is difficult for the author to monitor.
-- **Special for "Outline of Management Impacts"** - If reviewing content relating to "Outline of Management Impacts" emailshots, use internal/MgmtImpactRules.md methodology instead of this ReviewRules.md process. 
+- **Special for "Outline of Management Impacts"** - If reviewing content relating to "Outline of Management Impacts" emailshots, use internal/MgmtImpactRules.md methodology instead of this MDqualityCheck.md process. 
 - **Special for reviewing Touchstones.md** - To avoid circular reasoning, omit the Touchstones alignment requirements when reviewing Touchstones.md.
 
 ### 2. Touchstones Alignment
@@ -61,7 +61,7 @@ Read the .md being reviewed in complete sweeps beginning-to-end sweeps from each
 
 - **Track review completion** - Mark documents as reviewed in todo systems
 - **About section requirement** - Check if the .md has an About section at the end, if not add it
-- **Formal review tracking** - Add "Date last reviewed formally by ReviewRules.md: [date]" to the About section
+- **Formal review tracking** - Add "Date last reviewed formally by MDqualityCheck.md: [date]" to the About section
 - **Document changes** - Significant changes should be noted and justified
 - **Date format standard** - Use UK date format "DD Month YYYY" (e.g., "9 July 2025") for Last Updated dates
 
@@ -72,7 +72,7 @@ Read the .md being reviewed in complete sweeps beginning-to-end sweeps from each
 **Author**: Blake Dempster, Founder, CEO, Principal Architect  
 **Co-Authored by**: Claude Code (claude.ai/code)  
 **Created**: 3 July 2025  
-**Date last reviewed formally by ReviewRules.md**: 8 July 2025  
+**Date last reviewed formally by MDqualityCheck.md**: 8 July 2025  
 **Purpose**: Systematic methodology for reviewing MCP Project documentation to ensure consistency, quality, and strategic alignment.
 
 ---

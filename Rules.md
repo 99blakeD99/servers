@@ -6,13 +6,13 @@ This document establishes development guidelines and conventions for the Univers
 
 - **Always read `PLANNING.md`** at the start of a new conversation to understand the project's architecture, goals, style, and constraints.
 - **Check `Tasks.md`** before starting a new task. If the task isn't listed, add it with a brief description and today's date.
-- **When reviewing .md files**, follow the systematic methodology in `ReviewRules.md` with Touchstones.md consistency checks.
+- **When reviewing .md files**, follow the systematic methodology in `MDqualityCheck.md` with Touchstones.md consistency checks.
 - **Use consistent naming conventions, file structure, and architecture patterns** as described in `PLANNING.md`.
 - **Maintain MCP protocol compliance** - ensure all server implementations follow MCP specification requirements.
 
 ## 🧱 Code Structure & Modularity
 
-- **Never create a file longer than 500 lines of code.** If a file approaches this limit, refactor by splitting it into modules or helper files.
+- **File size guidelines**: Aim for 500 lines or less for most files. For complex MCP tools with comprehensive schemas and validation, up to 1000 lines is acceptable. If a file exceeds 1000 lines, refactor by splitting it into modules or helper files.
 - **Organize code into clearly separated modules**, grouped by feature or responsibility.
 - **Use clear, consistent imports** (prefer relative imports within packages).
 - **Follow the layered architecture** defined in Planning.md (MCP Server, Knowledge Management, Compliance Intelligence, Memory/Learning, LLM Abstraction).
@@ -111,7 +111,8 @@ This document establishes development guidelines and conventions for the Univers
 **Co-Authored by**: Claude Code (claude.ai/code)  
 **Created**: 25 December 2024  
 **Last Updated**: 9 July 2025  
-**Date last reviewed formally by ReviewRules.md**: 9 July 2025
+**Date last reviewed formally by MDqualityCheck.md**: 9 July 2025  
+**Status**: (okay)
 **Purpose**: Development standards and conventions for the Universal_FSCompliance_MCP Project ensuring consistency, quality, and regulatory compliance across all code contributions.
 
 *These rules ensure the Universal_FSCompliance_MCP Project maintains high standards for code quality, security, and regulatory compliance throughout development.*
