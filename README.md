@@ -28,7 +28,9 @@ The "RegTech" market in financial services is projected to grow from $11.7B to $
 - **[OurStory.md](OurStory.md)**: Founder narrative, development journey, and strategic insights from 8-day sprint
 - **[TechnicalArchitecture.md](TechnicalArchitecture.md)**: System design, infrastructure requirements, security specifications, and deployment architecture
 - **[LLMChoice.md](LLMChoice.md)**: AI model selection, Claude 3.5 Sonnet rationale, and multi-model strategy
-- **[UserInterface.html](UserInterface.html)**: Interactive landing page demonstration with professional interface mockup, LLM selection, and Standards dropdown
+- **[UserInterface.md](UserInterface.md)**: Professional interface design specification with strategic rationale for LLM-open architecture and universal standards engine
+- **[UserInterface_Connected.html](UserInterface_Connected.html)**: Working web demo with live MCP server integration and real compliance analysis tools
+- **[DEMO_SETUP.md](DEMO_SETUP.md)**: Complete setup guide for running the connected demo with MCP server integration
 - **[Rules.md](Rules.md)**: Development standards, coding conventions, and quality assurance requirements
 - **[CLAUDE.md](CLAUDE.md)**: AI development guidance, quality standards, and strategic-to-implementation translation
 - **[OutlineOfManagementImpacts.md](OutlineOfManagementImpacts.md)**: Executive thought leadership, financial services expertise, and management impact analysis by Blake Dempster Founder, CEO, Principal Architect.
