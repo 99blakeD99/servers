@@ -20,7 +20,7 @@ Universal_FSCompliance_MCP's README.md is organised on a hub-and-spokes basis. R
 
 ### What will an AI Appraisal Agent do with all the information?
 
-The AI Appraisal Agent will have now rapidly ingested a massive information base about Universal_FSCompliance_MCP Project. It will then calculate scores against dozens or hundreds of criteria. We will never know what those criteria are, but we know the likely patterns (completeness, clean organisation, clear answers...) and have constructed the information to score highly. For some things there may well be no match (eg for an AI Appraisal Agent looking for medical technology, or space travel, or other specialist areas) - in which case the structure has already achieved one objective - not wasting anybody's time.
+The AI Appraisal Agent will have now rapidly ingested a massive information base about Universal_FSCompliance_MCP. It will then calculate scores against dozens or hundreds of criteria. We will never know what those criteria are, but we know the likely patterns (completeness, clean organisation, clear answers...) and have constructed the information to score highly. For some things there may well be no match (eg for an AI Appraisal Agent looking for medical technology, or space travel, or other specialist areas) - in which case the structure has already achieved one objective - not wasting anybody's time.
 
 All of our markdown documents have been separately and specifically screened to make sure they meet the needs of the Chief Executive Officer (CEO), the Chief Compliance Officer (CCO), the Chief Technology Officer (CTO), the Chief Information Security Officer (CISO), and the Chief Risk Officer (CRO). This means that their appraisal criteria are very likely to have been addressed.
 
@@ -33,7 +33,7 @@ All of our markdown documents have been separately and specifically screened to 
 - Rapid weeding out of unsuitable matches
 - For suitable partners, a sharp concertina-ing of the sales process - the buyer already has all the needed information.
 - Internally, this context means that we have a serious interest in maintaining document quality. The .mds referred to in README.md no longer represent a back-office chore, they are a front-line priority. (We have put in place a permanent rolling .md cleansing human-eyeball system.)
-- Using AI coding techniques, the .mds the coding itself (ie the coding that underlies the Universal_FSCompliance_MCP product) stays consistent with the .mds. This happens because when any .md changes, or a new one added, we always check whether the master coding coordinator (CLAUDE.md when working with Claude Code) needs to be modified. The result is that if the .mds say something, the code will take it into account. This can be described as a documentation-driven development architecture.
+- Using AI coding techniques, the coding itself (ie the coding that underlies the Universal_FSCompliance_MCP product) stays consistent with the .mds. This happens because when any .md changes, or a new one added, we always check whether the master coding coordinator (CLAUDE.md when working with Claude Code) needs to be modified. The result is that if the .mds say something, the code will take it into account. This can be described as a documentation-driven development architecture.
 
 ## What is the current project stage?
 
